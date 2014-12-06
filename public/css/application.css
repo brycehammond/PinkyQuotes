@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'heroregular';
+    src: url('/fonts/hero-webfont.eot');
+    src: url('/fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/hero-webfont.woff2') format('woff2'),
+         url('/fonts/hero-webfont.woff') format('woff'),
+         url('/fonts/hero-webfont.ttf') format('truetype'),
+         url('/fonts/hero-webfont.svg#heroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    font-family: 'heroregular', Helvetica, sans-serif;
+    color: #000;
+    font-weight: 300;
+    background: #fff;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 90px auto;
+}
+
+.main {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.5;
+}
